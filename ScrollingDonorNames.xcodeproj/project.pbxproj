@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D986F01429E9BBDF00A3688D /* ScrollingDonorNamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F01329E9BBDF00A3688D /* ScrollingDonorNamesApp.swift */; };
-		D986F01629E9BBDF00A3688D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F01529E9BBDF00A3688D /* ContentView.swift */; };
+		D986F01629E9BBDF00A3688D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F01529E9BBDF00A3688D /* SettingsView.swift */; };
 		D986F01829E9BBE000A3688D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D986F01729E9BBE000A3688D /* Assets.xcassets */; };
 		D986F01B29E9BBE000A3688D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D986F01A29E9BBE000A3688D /* Preview Assets.xcassets */; };
 		D986F02529E9BBE000A3688D /* ScrollingDonorNamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F02429E9BBE000A3688D /* ScrollingDonorNamesTests.swift */; };
-		D986F02F29E9BBE000A3688D /* ScrollingDonorNamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F02E29E9BBE000A3688D /* ScrollingDonorNamesUITests.swift */; };
-		D986F03129E9BBE000A3688D /* ScrollingDonorNamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F03029E9BBE000A3688D /* ScrollingDonorNamesUITestsLaunchTests.swift */; };
+		D986F03F29E9BCF700A3688D /* HelpTheAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F03E29E9BCF700A3688D /* HelpTheAppView.swift */; };
+		D986F04129E9BD6700A3688D /* ScrollingTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F04029E9BD6700A3688D /* ScrollingTagView.swift */; };
+		D986F04329E9BD8B00A3688D /* DonorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F04229E9BD8B00A3688D /* DonorView.swift */; };
+		D986F04629E9BDB300A3688D /* Donor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F04529E9BDB300A3688D /* Donor.swift */; };
+		D986F04929E9BDFF00A3688D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F04829E9BDFF00A3688D /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +39,17 @@
 /* Begin PBXFileReference section */
 		D986F01029E9BBDF00A3688D /* ScrollingDonorNames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingDonorNames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D986F01329E9BBDF00A3688D /* ScrollingDonorNamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDonorNamesApp.swift; sourceTree = "<group>"; };
-		D986F01529E9BBDF00A3688D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D986F01529E9BBDF00A3688D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D986F01729E9BBE000A3688D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D986F01A29E9BBE000A3688D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D986F02029E9BBE000A3688D /* ScrollingDonorNamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingDonorNamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D986F02429E9BBE000A3688D /* ScrollingDonorNamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDonorNamesTests.swift; sourceTree = "<group>"; };
 		D986F02A29E9BBE000A3688D /* ScrollingDonorNamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingDonorNamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D986F02E29E9BBE000A3688D /* ScrollingDonorNamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDonorNamesUITests.swift; sourceTree = "<group>"; };
-		D986F03029E9BBE000A3688D /* ScrollingDonorNamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDonorNamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D986F03E29E9BCF700A3688D /* HelpTheAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheAppView.swift; sourceTree = "<group>"; };
+		D986F04029E9BD6700A3688D /* ScrollingTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingTagView.swift; sourceTree = "<group>"; };
+		D986F04229E9BD8B00A3688D /* DonorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorView.swift; sourceTree = "<group>"; };
+		D986F04529E9BDB300A3688D /* Donor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donor.swift; sourceTree = "<group>"; };
+		D986F04829E9BDFF00A3688D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,6 @@
 			children = (
 				D986F01229E9BBDF00A3688D /* ScrollingDonorNames */,
 				D986F02329E9BBE000A3688D /* ScrollingDonorNamesTests */,
-				D986F02D29E9BBE000A3688D /* ScrollingDonorNamesUITests */,
 				D986F01129E9BBDF00A3688D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +99,10 @@
 		D986F01229E9BBDF00A3688D /* ScrollingDonorNames */ = {
 			isa = PBXGroup;
 			children = (
+				D986F04429E9BDA300A3688D /* Models */,
+				D986F03D29E9BCC600A3688D /* Views */,
+				D986F04729E9BDEC00A3688D /* Extensions */,
 				D986F01329E9BBDF00A3688D /* ScrollingDonorNamesApp.swift */,
-				D986F01529E9BBDF00A3688D /* ContentView.swift */,
 				D986F01729E9BBE000A3688D /* Assets.xcassets */,
 				D986F01929E9BBE000A3688D /* Preview Content */,
 			);
@@ -118,13 +125,31 @@
 			path = ScrollingDonorNamesTests;
 			sourceTree = "<group>";
 		};
-		D986F02D29E9BBE000A3688D /* ScrollingDonorNamesUITests */ = {
+		D986F03D29E9BCC600A3688D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D986F02E29E9BBE000A3688D /* ScrollingDonorNamesUITests.swift */,
-				D986F03029E9BBE000A3688D /* ScrollingDonorNamesUITestsLaunchTests.swift */,
+				D986F01529E9BBDF00A3688D /* SettingsView.swift */,
+				D986F03E29E9BCF700A3688D /* HelpTheAppView.swift */,
+				D986F04029E9BD6700A3688D /* ScrollingTagView.swift */,
+				D986F04229E9BD8B00A3688D /* DonorView.swift */,
 			);
-			path = ScrollingDonorNamesUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D986F04429E9BDA300A3688D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D986F04529E9BDB300A3688D /* Donor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D986F04729E9BDEC00A3688D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D986F04829E9BDFF00A3688D /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D986F01629E9BBDF00A3688D /* ContentView.swift in Sources */,
+				D986F04629E9BDB300A3688D /* Donor.swift in Sources */,
+				D986F01629E9BBDF00A3688D /* SettingsView.swift in Sources */,
+				D986F04329E9BD8B00A3688D /* DonorView.swift in Sources */,
+				D986F04929E9BDFF00A3688D /* View+Extensions.swift in Sources */,
+				D986F04129E9BD6700A3688D /* ScrollingTagView.swift in Sources */,
 				D986F01429E9BBDF00A3688D /* ScrollingDonorNamesApp.swift in Sources */,
+				D986F03F29E9BCF700A3688D /* HelpTheAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D986F03129E9BBE000A3688D /* ScrollingDonorNamesUITestsLaunchTests.swift in Sources */,
-				D986F02F29E9BBE000A3688D /* ScrollingDonorNamesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
